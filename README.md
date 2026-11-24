@@ -16,10 +16,10 @@ Full stack web system that manages the purchase requisition pipeline of a procur
 - SLA in business days (with holidays), stage schedule, traffic-light status and deadline renegotiation workflow
 - Dashboard with backlog, lead time, SLA adherence and buyer ranking
 - Role-based access, bcrypt passwords, audit trail and automatic backups
-- AI assistant powered by the Claude API with tool use, answering questions within each user's permissions
+- AI assistant built on an LLM API with tool use, answering questions within each user's permissions
 - About 23k lines of code, 77 routes and 353 automated tests
 
-`Python` `Flask` `SQLite` `pandas` `JavaScript` `Claude API` `unittest`
+`Python` `Flask` `SQLite` `pandas` `JavaScript` `LLM API` `unittest`
 
 ### Payment slip automation
 Scheduled robot that checks when monthly payment slips are released, downloads them, consolidates the amounts in Excel, flags errors, organizes the folders and sends everything to the people responsible. It removed about 4 hours of manual work per day.
@@ -34,42 +34,37 @@ Agent built with Python and LLM APIs that researches companies by region, identi
 ### [Pontua](https://github.com/fabio-lazzarotto/pontua) (public)
 Event platform where invitations, RSVPs and check-ins happen on WhatsApp, with points, a ranking and rewards for the most engaged members. Navigable prototype with fictional data.
 
+`PostgreSQL` `n8n` `WhatsApp API` `JavaScript`
+
 ## What I work on
 
 - **Full stack apps:** Flask back-ends, REST APIs, React and JavaScript front-ends for internal tools
-- **Automation and RPA:** Python pipelines integrating ERPs, Excel, web portals, e-mail and network folders
-- **Applied AI:** assistants and agents with LLMs, tool use, RAG and MCP, with control over what the AI can access
-- **Data and BI:** SQL, dimensional modeling and Power BI dashboards for leadership
+- **Automation and RPA:** Python pipelines integrating ERPs, Excel, web portals, e-mail and network folders, plus low-code flows in Power Automate and n8n
+- **Applied AI:** assistants and agents with LLMs, tool use, RAG and MCP, cloud or local models, with control over what the AI can access
+- **Data and BI:** SQL, dimensional modeling, pipelines and Power BI dashboards for leadership
 
 ## Tech stack
 
-**Back-end**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![VBA](https://img.shields.io/badge/VBA-217346?style=for-the-badge&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
 
-**Front-end**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
+**Back-end and front-end**  
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Jinja](https://img.shields.io/badge/Jinja-B41717?style=for-the-badge&logo=jinja&logoColor=white)
 
-**AI**
-![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-6E40C9?style=for-the-badge)
+**AI and LLMs**  
+![LLM APIs](https://img.shields.io/badge/LLM%20APIs-412991?style=for-the-badge&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-6E40C9?style=for-the-badge&logoColor=white) ![AI Agents](https://img.shields.io/badge/AI%20Agents-0A66C2?style=for-the-badge&logoColor=white) ![Tool use](https://img.shields.io/badge/Tool%20use-5A29E4?style=for-the-badge&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-111111?style=for-the-badge&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) ![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-0078D4?style=for-the-badge&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-**Data and BI**
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+**Automation and RPA**  
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white) ![Power Apps](https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white) ![Scheduled jobs](https://img.shields.io/badge/Scheduled%20jobs-2E7D32?style=for-the-badge&logoColor=white)
 
-**Cloud and DevOps**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+**Data and BI**  
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![DAX](https://img.shields.io/badge/DAX-F2C811?style=for-the-badge&logoColor=black) ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=for-the-badge&logoColor=white) ![Dataverse](https://img.shields.io/badge/Dataverse-742774?style=for-the-badge&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) ![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white) ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+**Cloud and DevOps**  
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white) ![Azure Functions](https://img.shields.io/badge/Azure%20Functions-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white) ![Logic Apps](https://img.shields.io/badge/Logic%20Apps-0078D4?style=for-the-badge&logoColor=white) ![Microsoft Graph](https://img.shields.io/badge/Microsoft%20Graph-0078D4?style=for-the-badge&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**ERPs**  
+![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white) ![Protheus](https://img.shields.io/badge/Protheus-1A1A1A?style=for-the-badge&logoColor=white)
 
 ## Education
 
